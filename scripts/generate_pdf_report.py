@@ -76,7 +76,7 @@ def build_academic_report(
     output_filename: str = DEFAULT_PDF_NAME,
     student_name: str = "Magíster en Formación",
     student_id: str = "",
-    github_url: str = "https://github.com/TU-USUARIO/U3-ProgamacionIA",
+    github_url: str = "https://github.com/gaps0729/U3-ProgramacionIA",
 ):
     pdf_path = BASE_DIR / output_filename
     doc = SimpleDocTemplate(
@@ -745,7 +745,7 @@ if __name__ == "__main__":
         "--id", "-i", default="", help="Cédula de ciudadanía del estudiante"
     )
     parser.add_argument(
-        "--repo", "-r", default="https://github.com/TU-USUARIO/U3-ProgamacionIA", help="URL del repositorio GitHub"
+        "--repo", "-r", default="https://github.com/gaps0729/U3-ProgramacionIA", help="URL del repositorio GitHub"
     )
 
     args = parser.parse_args()

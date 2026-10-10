@@ -168,8 +168,8 @@ El benchmarking comparativo evaluó tres familias de modelos bajo **Validación 
 
 ### Paso 1: Clonar el Repositorio
 ```bash
-git clone https://github.com/TU-USUARIO/U3-ProgamacionIA.git
-cd U3-ProgamacionIA
+git clone https://github.com/gaps0729/U3-ProgramacionIA.git
+cd U3-ProgramacionIA
 ```
 
 ### Paso 2: Crear y Activar Entorno Virtual
