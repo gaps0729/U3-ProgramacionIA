@@ -1,0 +1,17 @@
+{
+    "model_name": "RandomForest",
+    "accuracy": 0.85,
+    "sensitivity_recall": 0.6842105263157895,
+    "specificity": 0.926829268292683,
+    "precision": 0.8125,
+    "f1_score": 0.7428571428571429,
+    "roc_auc": 0.8934531450577663,
+    "pr_auc": 0.8091400311522261,
+    "brier_score": 0.12069799589204837,
+    "confusion_matrix": {
+        "true_negatives": 38,
+        "false_positives": 3,
+        "false_negatives": 6,
+        "true_positives": 13
+    }
+}
