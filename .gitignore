@@ -75,3 +75,8 @@ desktop.ini
 # Application logs (preserve directory with .gitkeep)
 logs/*.log
 !logs/.gitkeep
+
+# Documentos internos y entregables PDF
+PLAN_MAESTRO_PROYECTO_IA.md
+*.pdf
+
